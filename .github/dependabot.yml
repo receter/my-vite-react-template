@@ -13,3 +13,7 @@ updates:
     commit-message:
       prefix: chore
       include: scope
+    ignore:
+      # I want to handle major updates manually
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
