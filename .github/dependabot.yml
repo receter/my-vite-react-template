@@ -17,3 +17,8 @@ updates:
       # I want to handle major updates manually
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
+    groups:
+      dev-dependencies:
+        dependency-type: "development"
+      dependencies:
+        dependency-type: "production"
