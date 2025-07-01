@@ -19,17 +19,17 @@
     "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react": "^4.6.0",
     "eslint": "^8.57.1",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.19",
+    "eslint-plugin-react-refresh": "^0.4.20",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "husky": "^9.1.7",
-    "lint-staged": "^15.5.0",
-    "prettier": "3.5.3",
+    "lint-staged": "^15.5.2",
+    "prettier": "3.6.2",
     "prettier-plugin-css-order": "^2.1.2",
-    "typescript": "^5.8.2",
-    "vite": "^5.4.16"
+    "typescript": "^5.8.3",
+    "vite": "^5.4.19"
   },
   "lint-staged": {
     "*.{js?(x),ts?(x)}": [
