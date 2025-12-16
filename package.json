@@ -11,13 +11,13 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@types/react": "^19.1.13",
-    "@types/react-dom": "^19.1.9",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^5.2.0",
