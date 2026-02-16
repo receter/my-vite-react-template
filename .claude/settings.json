@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx prettier ./src --write && npx eslint --fix 'src/**/*.{js,jsx,ts,tsx}'"
+          }
+        ]
+      }
+    ]
+  }
+}
