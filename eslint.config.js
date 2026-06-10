@@ -13,10 +13,12 @@ export default defineConfig([
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,
-      reactHooks.configs["recommended-latest"],
+      reactHooks.configs.flat.recommended,
       reactRefresh.configs.vite,
     ],
-    languageOptions: { ecmaVersion: 2020, globals: globals.browser },
+    languageOptions: {
+      globals: globals.browser,
+    },
     plugins: { "simple-import-sort": simpleImportSort },
     rules: { "simple-import-sort/imports": ["error"] },
   },
